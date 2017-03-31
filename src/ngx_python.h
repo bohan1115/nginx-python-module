@@ -10,6 +10,10 @@
 
 #include <ngx_config.h>
 #include <ngx_core.h>
+
+#undef _GNU_SOURCE
+#undef _POSIX_C_SOURCE
+#undef _XOPEN_SOURCE
 #include <Python.h>
 
 
